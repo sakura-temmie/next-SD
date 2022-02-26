@@ -13,7 +13,6 @@ export default function Home() {
       setPosts(querySnapshot.docs.map((doc) => doc.data()));
     });
   }, []);
-  console.log(posts);
 
   return (
     <div className={styles.container}>
