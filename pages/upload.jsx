@@ -1,6 +1,5 @@
 import Layout from "../components/Layout";
 import { useState } from "react";
-import Input from "../components/Input";
 
 const Upload = () => {
   const [title, setTitle] = useState();
@@ -8,7 +7,6 @@ const Upload = () => {
   const [url, setUrl] = useState();
   const [image, setImage] = useState();
   const [text, setText] = useState();
-  console.log(title, date, url, text);
 
   return (
     <Layout>
